@@ -15083,11 +15083,15 @@ section {
 |   Letter Spacing
 -----------------------------------------------*/
 .lh-0 {
-  line-height: 1.125rem;
+  line-height: 1.5rem;
 }
 
 .lh-1 {
-  line-height: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.lh-2 {
+  line-height: 2.00rem;
 }
 
 /*-----------------------------------------------
@@ -17807,5 +17811,3 @@ a.hover-color-white:hover {
     padding-right: 4.9%;
   }
 }
-
-/*# sourceMappingURL=theme.css.map */

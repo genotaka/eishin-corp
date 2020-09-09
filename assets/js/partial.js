@@ -66,29 +66,29 @@ Vue.component('health-elm', {
         '              </div>\n' +
         '            </div>\n' +
         '          </div>\n' +
-        '          <div class="row">\n' +
-        '            <div class="col-6 col-lg-3 h-100 mb-4"><a href="antioxidant.html"> <img class="img-fluid rounded-top" src="assets/img/origin/care.jpg" alt="" /></a>\n' +
+        '          <div class="row" data-zanim-timeline="{}" data-zanim-trigger="scroll">\n' +
+        '            <div class="col-6 col-lg-3 h-100 mb-4" data-zanim-xs=\'{"duration":1.5,"delay":0.3}\'><a href="antioxidant.html"> <img class="img-fluid rounded-top" src="assets/img/origin/care.jpg" alt="" /></a>\n' +
         '              <div class="p-3 border rounded-bottom border-top-0">\n' +
         '                <h5 class="text-base text-transform-none font-weight-medium lh-1 fs-0 fs-sm-1"><a class="text-black" href="antioxidant.html">抗酸化ケア</a></h5>\n' +
         '                <p class="small text-muted">肌トラブル、肌の老化と活性酸素にはビタミンCの5倍効果「カンカ」に注目</p>\n' +
         '                <a class="text-dark font-weight-semi-bold" href="antioxidant.html">Read more<span class="fas fa-angle-right ml-1 text-900" data-fa-transform="down-2"></span></a>\n' +
         '              </div>\n' +
         '            </div>\n' +
-        '            <div class="col-6 col-lg-3 h-100 mb-4"><a href="immunity.html"> <img class="img-fluid rounded-top" src="assets/img/origin/blood.jpg" alt="" /></a>\n' +
+        '            <div class="col-6 col-lg-3 h-100 mb-4" data-zanim-xs=\'{"duration":1.5,"delay":0.3}\'><a href="immunity.html"> <img class="img-fluid rounded-top" src="assets/img/origin/blood.jpg" alt="" /></a>\n' +
         '              <div class="p-3 border rounded-bottom border-top-0">\n' +
         '                <h5 class="text-base text-transform-none font-weight-medium lh-1 fs-0 fs-sm-1"><a class="text-black" href="immunity.html">免疫力と血流</a></h5>\n' +
         '                <p class="small text-muted">低体温による免疫力低下に、血流UPに効果的な血管拡張作用成分を摂取しよう</p>\n' +
         '                <a class="text-dark font-weight-semi-bold" href="immunity.html">Read more<span class="fas fa-angle-right ml-1 text-900" data-fa-transform="down-2"></span></a>\n' +
         '              </div>\n' +
         '            </div>\n' +
-        '            <div class="col-6 col-lg-3 h-100 mb-4"><a href="food.html"> <img class="img-fluid rounded-top" src="assets/img/origin/food.jpg" alt="" /></a>\n' +
+        '            <div class="col-6 col-lg-3 h-100 mb-4" data-zanim-xs=\'{"duration":1.5,"delay":0.3}\'><a href="food.html"> <img class="img-fluid rounded-top" src="assets/img/origin/food.jpg" alt="" /></a>\n' +
         '              <div class="p-3 border rounded-bottom border-top-0">\n' +
         '                <h5 class="text-base text-transform-none font-weight-medium lh-1 fs-0 fs-sm-1"><a class="text-black" href="food.html">体質に合わせた食事</a></h5>\n' +
         '                <p class="small text-muted">痩せる食事も体質3タイプによって違う?水の滞りタイプにはトウモロコシと鳩麦を</p>\n' +
         '                <a class="text-dark font-weight-semi-bold" href="food.html">Read more<span class="fas fa-angle-right ml-1 text-900" data-fa-transform="down-2"></span></a>\n' +
         '              </div>\n' +
         '            </div>\n' +
-        '            <div class="col-6 col-lg-3 h-100 mb-4 mb-md-0"><a href="diet.html"> <img class="img-fluid rounded-top" src="assets/img/origin/diet.jpg" alt="" /></a>\n' +
+        '            <div class="col-6 col-lg-3 h-100 mb-4 mb-md-0" data-zanim-xs=\'{"duration":1.5,"delay":0.3}\'><a href="diet.html"> <img class="img-fluid rounded-top" src="assets/img/origin/diet.jpg" alt="" /></a>\n' +
         '              <div class="p-3 border rounded-bottom border-top-0">\n' +
         '                <h5 class="text-base text-transform-none font-weight-medium lh-1 fs-0 fs-sm-1"><a class="text-black" href="diet.html">糖質制限ダイエット</a></h5>\n' +
         '                <p class="small text-muted">5大栄養素をバランスよく摂りながら、トクホでもおなじみの「茶花」成分を活用</p>\n' +
@@ -136,7 +136,7 @@ Vue.component('footer-elm', {
 })
 
 Vue.component('contact-elm', {
-    template: '        <section id="contact">\n' +
+    template: '        <section id="contact" class="pt-0">\n' +
         '          <div class="container">\n' +
         '            <div class="row">\n' +
         '              <div class="col text-center mb-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">\n' +
@@ -151,8 +151,8 @@ Vue.component('contact-elm', {
         '                </div>\n' +
         '              </div>\n' +
         '            </div>\n' +
-        '            <div class="row justify-content-center">\n' +
-        '              <div class="col-lg-6 mb-5 mb-lg-0 d-flex flex-column justify-content-between">\n' +
+        '            <div class="row justify-content-center" data-zanim-timeline="{}" data-zanim-trigger="scroll">\n' +
+        '              <div class="col-lg-6 mb-5 mb-lg-0 d-flex flex-column justify-content-between" data-zanim-xs=\'{"duration":1.5,"delay":0.3}\'>\n' +
         '                <div class="row">\n' +
         '                  <div class="col-12">\n' +
         '                    <h5 class="mb-3">会社情報</h5>\n' +
@@ -177,14 +177,13 @@ Vue.component('contact-elm', {
         '                    </div>\n' +
         '                  </div>\n' +
         '                </div>\n' +
-        '                <div class="googlemap rounded theme-map mt-4" data-latlng="34.6976813,135.5121841,17" data-scrollwheel="false" data-icon="assets/img/map-marker.png" data-zoom="17" data-theme="Default" style="min-height: 14.63rem;">\n' +
-        '                  <div class="marker-content py-3">\n' +
-        '                    <h5>株式会社栄進商事</h5>\n' +
-        '                    <p>〒530-0044 大阪市北区東天満2-9-1 <br> 若杉センタービル本館9階</p>\n' +
+        '                <div class="mt-4" >\n' +
+        '                  <div class="py-3">\n' +
+        '                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.2999407161174!2d135.5121823156508!3d34.69761398043526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6c589f298b1%3A0xe801f5c9be894c1!2z5qCq5byP5Lya56S-IOaghOmAsuWVhuS6iw!5e0!3m2!1sja!2sjp!4v1599620675324!5m2!1sja!2sjp" width="100%" height="" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>\n' +
         '                  </div>\n' +
         '                </div>\n' +
         '              </div>\n' +
-        '              <div class="col-lg-6">\n' +
+        '              <div class="col-lg-6" data-zanim-xs=\'{"duration":1.5,"delay":0.3}\'>\n' +
         '                <h5 class="mb-3">こちらからお問い合わせください。</h5>\n' +
         '                <form class="zform text-left" method="post">\n' +
         '                  <input type="hidden" name="to" value="username@domain.extension" />\n' +
