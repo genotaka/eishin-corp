@@ -1,9 +1,7 @@
 <?php
-
 	$error = '';
 
 	if ( array_key_exists('to', $_POST) ){
-
 		$to 		= $_POST['to'];
 		unset($_POST['to']);
 
@@ -11,7 +9,6 @@
 		$name		= "Website User";
 		$subject	= "New Email from My Website";
 		$reCaptchaSecret = "6Lck1FAUAAAAAH3Y3wOtFAx5IjS2z_MD5WpNl4P9";
-
 
 		if(isset($_POST['from'])){
 			$from 	= $_POST['from'];
